@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #181818;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-left, .nav-right{
+   display: flex;
+   align-items: center;
+    
+}
+
+.icon{
+    width:200px;
+    float:left;
+    height: 60px;
+}
+
+.logo{
+    color:antiquewhite;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    float:left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 60px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: #000;
+}
+
+ 
+
+
+.search-box{
+    width: 300px;
+    background: #efefef;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search-box image{
+    width: fit-content; 
+     height: flex;
+    float: left;
+ }
+
+ .search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+ }
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+   
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+     
+}
+
+.btn:focus{
+    outline: none;
+}
+
+ 
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(#);
+    background-size: cover;
+    background-position: center;
+} 
+
+
+
+ol li{
+    display: inline-block;
+    
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ .course-col{
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+ }
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.left-sidebar{
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+.right-sidebar{
+    background: #040b13;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start; 
+}
+
+.main-content{
+    
+    flex-basis: 47%;
+     
+}
